@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>About Project – College Event Management System</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background-color: #8B0000; font-family: Arial, sans-serif; color: #333; }
+
+    /* Navbar */
+    .navbar {
+      background-color: #b30000;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .navbar a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .navbar a:hover { text-decoration: underline; }
+
+    /* Content container */
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #fff;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Page header inside container */
+    .container h1 {
+      background: linear-gradient(to bottom, #fff, #f3f3f3);
+      padding: 20px;
+      font-size: 24px;
+      color: #a30000;
+      border-bottom: 1px solid #ddd;
+    }
+
+    /* Two-column layout */
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .main {
+      flex: 3;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .sidebar {
+      flex: 1;
+      border-left: 1px solid #ddd;
+      padding: 20px;
+    }
+
+    /* Sidebar images */
+    .sidebar img {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 12px 0;
+      background-color: #700000;
+      color: #fff;
+      font-size: 13px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="frontpage.html">Welcome</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Project</a>
+    <a href="events.html">Events</a>
+    <a href="register.html">Student Registration</a>
+    <a href="login.html">Login</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <!-- White content container -->
+  <div class="container">
+    <!-- Page title -->
+    <h1>About College Event Management System</h1>
+
+    <!-- Two columns: text & sidebar -->
+    <div class="columns">
+      <!-- Main text -->
+      <div class="main">
+         <h2>Purpose</h2>
+      <p>
+        This document specifies the software requirements for the College Event Management System (CEMS) used for the INSIGHT and TECHNEX festivals at St. Vincent Pallotti College of Engineering & Technology, Nagpur.  
+        CEMS Version 1.0 provides an integrated solution for managing online event registration, scheduling, participant coordination, venue booking, communication (email/SMS), and result processing.
+      </p>
+
+      <!-- Project Scope -->
+      <h2>Project Scope</h2>
+      <p>
+        The College Event Management System (CEMS) is a web- and mobile-based platform designed to automate and optimize all aspects of college events.  
+        Organizers, faculty, and student coordinators can plan, schedule, promote, and manage technical and cultural activities—INSIGHT and TECHNEX—through a unified interface.
+      </p>
+      <ul>
+        <li>Online event & program registration with real-time capacity tracking and wait-lists.</li>
+        <li>Role-based panels for administrators, volunteers, and participants.</li>
+        <li>Automated notifications (email/SMS) for confirmations, schedule changes, and announcements.</li>
+        <li>Integrated payment gateway for paid workshops and events, with digital certificate issuance.</li>
+        <li>Analytics & reporting dashboard for attendance, feedback, and financial summaries.</li>
+      </ul>
+
+      <!-- Overview -->
+      <h2>Overview</h2>
+      <p>
+        CEMS replaces manual spreadsheets and fragmented tools with a single, scalable solution.  
+        It supports user classes such as students, organizers, guest speakers, and vendors—each with tailored access—and integrates with college systems for authentication, calendar syncing, and certificate generation.  
+        The system is built to handle peaks of up to 5,000 concurrent users, ensuring 99.9% uptime during major festival days.
+      </p>
+      </div>
+
+      <!-- Sidebar with images -->
+      <aside class="sidebar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoP8yo9WIJdBR3vBzGtW_nGusfkkTWAoDoj5U0YlTOjfQj8qGG8RTmFhfciBi8AMoZtas&usqp=CAU" alt="insight">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHM9vgnACwlYNtKEaoB8AqQfioMPBROm-aimBNJW_tEbYX97Hi1sPBn6nVolfn6Qd-RLI&usqp=CAU" alt="Technex">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wBBFK3pHcuBC6hjZvhiZjiNAScG24DLqJnuGVlsRgMY1-NWShJtCIMRqjZ1U62314YU&usqp=CAU" alt="Music Concert">
+      </aside>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 College Event Management System | SVPCET Microproject
+  </div>
+
+</body>
+</html>
